@@ -1,3 +1,5 @@
+/* This applies style to the entire page; added font family */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,25 +8,22 @@
 
 body {
     background-color: #d9dcd6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+/* HEADER SECTION; removed font to keep font consistent on site */
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
 .header h1 {
-    display: inline-flex;
     font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
 }
 
 .header div {
