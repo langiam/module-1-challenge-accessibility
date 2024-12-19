@@ -110,7 +110,7 @@ main {
 
 .hero-image {
     height:800px;
-    background-image:url(/Develop/assets/images/digital-marketing-meeting.jpg);
+    background-image: url(../images/digital-marketing-meeting.jpg);
     background-size: cover;
     background-position: center;
     margin-bottom: 25px;
